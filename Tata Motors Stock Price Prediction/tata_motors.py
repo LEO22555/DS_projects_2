@@ -20,4 +20,3 @@ model = model.fit(data, date_col='Date', value_col='Close', id_col=None)
 prediction = model.predict()
 forecast = prediction.forecast
 print(forecast)
-
